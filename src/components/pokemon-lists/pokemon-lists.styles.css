@@ -1,0 +1,15 @@
+.pokemon-lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .pokemon-lists {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+}
+

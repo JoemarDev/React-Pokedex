@@ -1,0 +1,38 @@
+.search-box {
+    position: relative;
+    max-width: 95%;
+    margin: auto;
+}
+
+.search-box input {
+    padding: 10px 20px;
+    padding-left: 13%;
+    border-radius: 100px;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    width: 100%;
+}
+
+.search-box .search-icon {
+    position: absolute;
+    left: 20px;
+    transform: translate(0% , -50%);
+    top: 50%;
+}
+
+.search-button {
+    position: absolute;
+    height: 85%;
+    min-width: 80px;
+    right: 5px;
+    font-size: 18px;
+    font-weight: 900;
+    background: #595F65;
+    color: #fff;
+    border: none;
+    transform: translate(0% , -50%);
+    top: 50%;
+    border-radius: 18px;
+    cursor: pointer;
+}
