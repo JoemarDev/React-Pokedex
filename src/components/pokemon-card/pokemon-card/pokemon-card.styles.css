@@ -31,31 +31,42 @@
     text-transform: uppercase;
 }
 
-.pokemon-card-image img {
+
+.pokemon-overlay {
     width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff;
+    transform: scale(1);
+    transition: all 0.5s;
+    overflow-y: scroll;
 }
 
-.pokemon-types  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.pokemon-types .types {
-    width: 100%;
-    text-align: center;
-    padding: 5px;
-    border-radius: 8px;
-    color: #fff;
-    max-width: 100px;
-    font-weight: 400;
-    font-size: 18px;
-    margin: 5px;
+.pokemon-overlay.close {
+    top: 100%;
+    transition: all 0.5s;
 }
 
 
+.pokemon-image.active {
+    position: fixed;
+    z-index: 5;
+    width: auto;
+    transition: all 0.5s;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+}
 
+
+.button-close.active {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 20;
+}
 
 @media only screen and (max-width: 800px) {
 

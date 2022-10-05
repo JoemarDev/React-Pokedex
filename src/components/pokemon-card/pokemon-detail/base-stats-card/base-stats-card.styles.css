@@ -1,0 +1,58 @@
+.loader {
+    width: 100%;
+    background: red;
+    position: relative;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.loader-value {
+    height: 10px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.loader.hp-bar {
+    background: #60d37349;
+}
+
+
+.loader-value.hp-bar {
+    background: #60d373;
+}
+
+
+.loader.attack-bar {
+    background: #f14c3d38;
+}
+
+
+.loader-value.attack-bar {
+    background: #F14B3D;
+}
+
+
+
+
+.loader.defense-bar {
+    background: #fdd85d31;
+}
+
+
+.loader-value.defense-bar {
+    background: #FDD85D;
+}
+
+
+.loader.speed-bar {
+    background: #ff844f25;
+}
+
+
+.loader-value.speed-bar {
+    background: #FF844F;
+}
+
+
+
+

@@ -36,3 +36,8 @@
     border-radius: 18px;
     cursor: pointer;
 }
+
+
+.search-button:active {
+    opacity: 0.5;
+}

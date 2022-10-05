@@ -1,0 +1,34 @@
+.pokemon-stats {
+    max-width: 800px;
+    margin: auto;
+}
+
+.stats-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-card img {
+    max-width: 300px;
+}
+
+.stats-card .pokemon-card-image {
+    text-align: center;
+}
+
+.pokemon-name {
+    color: #0077AA;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.stats-card  .pokemon-types {
+    margin: 0;
+}
+
+.pokemon-stats .pokemon-inner-box {
+    padding: 30px 35px;
+    margin-bottom: 20px;
+}
