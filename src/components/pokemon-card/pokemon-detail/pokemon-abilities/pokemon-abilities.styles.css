@@ -1,0 +1,97 @@
+.pokemon-abilities-card label {
+    font-size: 0px;
+    display: block;
+
+
+}
+
+.pokemon-abilities-card label:first-letter {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.pokemon-abilities-card ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon-abilities-card ul li {
+    width: 50%!important;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+
+}
+
+.pokemon-abilities-card  .content span {
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.pokemon-abilities-card ul li .content {
+    margin: 10px;
+    padding: 20px 5px;
+    border-radius: 10px;
+}
+
+
+
+.pokemon-abilities-card .text-holder {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    bordeR:2px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.pokemon-abilities-card ul li:nth-child(1) .content {
+    background: #0077AA;
+}
+
+.pokemon-abilities-card ul li:nth-child(1) label {
+    color: #0077AA;
+}
+
+.pokemon-abilities-card ul li:nth-child(2) .content {
+    background: #60D374;
+}
+
+.pokemon-abilities-card ul li:nth-child(2) label {
+    color: #60D374;
+}
+
+.pokemon-abilities-card ul li:nth-child(3) .content {
+    background: #F14B3D;
+}
+
+.pokemon-abilities-card ul li:nth-child(3) label {
+    color: #F14B3D;
+}
+
+
+.pokemon-abilities-card ul li:nth-child(4) .content {
+    background: #FDD85D;
+}
+
+.pokemon-abilities-card ul li:nth-child(4) label {
+    color: #FDD85D;
+}
+
+
+.pokemon-abilities-card ul li:nth-child(5) .content {
+    background: #FF844F;
+}
+
+.pokemon-abilities-card ul li:nth-child(5) label {
+    color: #FF844F;
+}
+

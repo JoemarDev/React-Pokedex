@@ -1,0 +1,22 @@
+.no-found-container {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.no-found-container  h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.no-found-container p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.no-found-container img {
+    width: 400px;
+    max-width: 80%;
+    position: relative;
+    left: 25px;
+    top: -20px;
+}

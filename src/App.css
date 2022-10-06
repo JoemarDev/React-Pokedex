@@ -85,3 +85,20 @@ input {
 .type-ice {
     background: #90e0ef;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.align-item-center {
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+
+.pokemon-types  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pokemon-types .types {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    max-width: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .pokemon-types .types {
+        font-size: 14px;
+    }
+
+}
+

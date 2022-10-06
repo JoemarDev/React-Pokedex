@@ -8,12 +8,33 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: -20px;
+    color: #fff;
+}
+
+.banner .banner-background {
+    position: absolute;
+    right: -50px;
+    opacity: 0.2;
+    height: 800px;
+    width: 800px;
+    top: -200px;
+    
 }
 
 .banner .wrapper {
     max-width: 95%;
     width: 500px;
     display: block;
+    position: relative;
+    z-index: 5;
 }
 
 .banner h2 {
@@ -24,6 +45,17 @@
     .banner {
         margin-bottom: 25px;
     }
+
+    .banner .banner-background {
+        position: absolute;
+        right: -50px;
+        opacity: 0.2;
+        height: 400px;
+        width: 400px;
+        top: -50px;
+        
+    }
+
     
 }
 

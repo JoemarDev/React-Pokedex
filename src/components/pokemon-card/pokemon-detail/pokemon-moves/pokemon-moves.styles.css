@@ -1,0 +1,36 @@
+.pokemon-moves-card h3 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.pokemon-moves-card  ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pokemon-moves-card  li {
+    width: 33.33%;
+}
+
+
+.moves-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.moves-header  h3 {
+    margin: 0;
+}
+
+.moves-header  button {
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #fff;
+    background: #595F65;
+    border: none;
+    cursor: pointer;
+}

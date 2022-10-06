@@ -1,0 +1,31 @@
+.pokemon-breeding-card ul {
+    display: flex;
+    margin: 0;
+}
+
+.pokemon-breeding-card li {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.pokemon-breeding-card h3 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.pokemon-breeding-card li span {
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pokemon-breeding-card .data-value {
+    border:1px solid #ddd;
+    background: #F8F9FA;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pokemon-breeding-card .pokemon-inner-box {
+    padding: 0px 10px;
+}
