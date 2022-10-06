@@ -6,7 +6,7 @@ This is a capstone project. this is made in order to implement what i learn from
 ![POKEAPI](https://pokeapi.co/static/pokeapi_256.3fa72200.png)
 
 ### Demo
-![Pokedex-R](https://joemardev.github.io/React-Pokedex/)
+[Pokedex-R](https://joemardev.github.io/React-Pokedex/)
 
 ## Some Screenshot of the project
 ---
