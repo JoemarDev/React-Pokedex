@@ -7,4 +7,4 @@ This is a capstone project in order to implement what i learn from the react cou
 ![POKEAPI](https://pokeapi.co/static/pokeapi_256.3fa72200.png)
 
 ## Some Screenshot of the project
-![Git](https://github.com/JoemarDev/React-Pokedex/screenshot.png)
+![Project Screen Shot](https://github.com/JoemarDev/React-Pokedex/screenshot.png)
