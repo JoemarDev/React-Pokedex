@@ -42,6 +42,11 @@
     transform: scale(1);
     transition: all 0.5s;
     overflow-y: scroll;
+    z-index: 15;
+}
+
+.pokemon-overlay::-webkit-scrollbar {
+    display: none;
 }
 
 .pokemon-overlay.close {

@@ -10,7 +10,6 @@
 }
 .pokemon-breeding-card h3 {
     margin: 0;
-    font-size: 25px;
     margin-bottom: 20px;
 }
 .pokemon-breeding-card li span {
@@ -26,7 +25,6 @@
     padding: 5px;
     border-radius: 5px;
 }
-
 
 .pokemon-breeding-card .pokemon-inner-box {
     padding: 0px 10px;

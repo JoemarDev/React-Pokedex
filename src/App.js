@@ -4,7 +4,7 @@ import Banner from './components/banner/banner.component';
 import PokemonLists from './components/pokemon-lists/pokemon-lists.component';
 
 const App = () => {
-
+	
 	const URL = 'https://pokeapi.co/api/v2';
 
 	const [pokemons , setPokemons] = useState([]);
@@ -52,6 +52,7 @@ const App = () => {
         return () => window.removeEventListener('scroll', onScroll);
 
 	},[mounted,pokemons , isOnSearch]);
+
 
 
 	const PaginateArray = (arr,page,limit=20) => {
