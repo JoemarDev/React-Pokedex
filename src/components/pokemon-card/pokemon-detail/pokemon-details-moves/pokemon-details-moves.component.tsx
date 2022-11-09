@@ -1,8 +1,24 @@
 import { useEffect, useState } from "react";
 
 import './pokemon-details-moves.styles.css'
-const PokemonDetailsMoves = ({url}) => {
-    const [move , setMove] = useState([]); 
+
+
+type PropTypes = {
+    url : string,
+}
+
+type PokemonNameType = {
+    [name : string] : string;
+}
+
+type PokemonMoveType = {
+    type : PokemonNameType,
+    name : string
+}
+
+
+const PokemonDetailsMoves = ({url} : PropTypes) => {
+    const [move , setMove] = useState<PokemonMoveType>(); 
 
     useEffect(() => {
 
@@ -18,7 +34,7 @@ const PokemonDetailsMoves = ({url}) => {
 
     },[url]);
 
-    if(move.length === 0) return;
+    if(move === undefined) return null;
 
     return (
         <div className='content'>

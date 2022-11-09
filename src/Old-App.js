@@ -43,6 +43,7 @@ const App = () => {
 			 
 			if(Scroll > (TotalHeight - (SpaceAdjustMentLoad))) {
 				page++;
+				console.log(PaginateArray(pokemons, page++))
 				setPublicPokemons(poke => [...poke , ...PaginateArray(pokemons, page++)])
 			}
 		}

@@ -1,6 +1,11 @@
 import './banner.styles.css';
 import SearchBar from '../search-bar/search-bar-component';
-const Banner = ({onHandleSearch}) => {
+
+type BannerProps = {
+    onHandleSearch : (keyword : string) => void
+}
+
+const Banner = ({onHandleSearch} : BannerProps) => {
     return (
         <div className="banner" >
             <img  className='banner-background' src={`${process.env.PUBLIC_URL}/icons/bg.png`} alt="banner overlay background"/>

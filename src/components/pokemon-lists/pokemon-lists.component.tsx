@@ -3,7 +3,14 @@ import PokemonCard from "../pokemon-card/pokemon-card/pokemon-card.component";
 
 import './pokemon-lists.styles.css';
 
-const PokemonLists = ({pokemons}) => {
+import {TypePokemons} from '../../App';
+
+
+type PokemonListsProps = {
+    pokemons : TypePokemons[]
+}
+
+const PokemonLists = ({pokemons} : PokemonListsProps) => {
 
     return (
         <>

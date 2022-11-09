@@ -1,6 +1,15 @@
 import './pokemon-abilities.styles.css';
+import {PokemonCardDetails} from '../../pokemon-card/pokemon-card.component';
 
-const PokemonAbilities = ({pokemonDetails}) => {
+type PropTypes = {
+    pokemonDetails : PokemonCardDetails
+}
+
+
+const PokemonAbilities = ({pokemonDetails} : PropTypes) => {
+
+    if(pokemonDetails.abilities === undefined) return null;
+    
     return (
         <div className="pokemon-abilities-card pokemon-inner-box">
             <h3>Abilities</h3>

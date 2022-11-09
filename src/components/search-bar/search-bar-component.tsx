@@ -1,6 +1,13 @@
-import { useRef, useState } from 'react';
+import { ChangeEvent, useRef, useState , KeyboardEvent } from 'react';
 import './search-bar.styles.css';
-const SearchBar = ({placeholder , text , onHandleSearch}) => {
+
+type SearchBarTypes = {
+    placeholder? : string,
+    text? : string,
+    onHandleSearch : (keyword: string) => void;
+}
+
+const SearchBar = ({placeholder , text , onHandleSearch} : SearchBarTypes) => {
     const [keyword , setKeyword] = useState('');
     const prevKeyword = useRef("");
     return (
